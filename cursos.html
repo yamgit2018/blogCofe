@@ -50,7 +50,11 @@
 
         <div class="curso--widget">
             <div class="curso__imagen">
-                <img src="img/curso1.jpg" alt="curso 1">
+                <picture>
+                    <!-- <source srcset="img/curso1." loading="lazy" type="image/webp"> -->
+                    <img loading="lazy" src="img/curso1.jpg" alt="imagen blog" >
+                </picture>
+               
             </div>
             <div>
                     <h4> Técnicas de Extracción de Café</h4>
@@ -65,7 +69,10 @@
 
         <div class="curso--widget">
             <div class="curso__imagen">
-                <img src="img/curso2.jpg" alt="curso 2">
+                <picture>
+                    <source srcset="img/curso2_1webp" loading="lazy" type="image/webp">
+                    <img src="img/curso2.jpg" alt="imagen blog" loading="lazy">
+                </picture>
             </div>
             <div>
                 <h4> Técnicas de Extracción de Café</h4>
@@ -80,7 +87,10 @@
 
         <div class="curso--widget">
             <div class="curso__imagen">
-                <img src="img/curso3.jpg" alt="curso 3">
+                <picture>
+                    <source src="img/curso3_1.webp" loading="lazy" type="image/webp">
+                    <img src="img/curso3.jpg" alt="imagen blog" loading="lazy">
+                </picture>
             </div>
             <div>
                     <h4> Técnicas de Extracción de Café</h4>
@@ -109,5 +119,6 @@
             </div>
         </div>    
     </footer>
+    <script src="js/modernizr.js"></script>
 </body>
 </html>

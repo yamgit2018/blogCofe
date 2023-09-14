@@ -87,12 +87,17 @@ img
 .centrar-texto
 {
     text-align: center;
-}    
- 
+}   
+
+/* .webp.header
+{
+    background-image: url(../img/banner.webp);
+}
+  */
 
 .header
 {
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.webp);
     height: 60rem;
     background-size: cover;
     background-position: center center;
@@ -321,7 +326,7 @@ img
 
 .contacto-bk
 {
-    background-image: url(../img/contacto.jpg);
+    background-image: url(../img/contacto.webp);
     height: 40rem;
     background-repeat: no-repeat;
     background-size: cover;
